@@ -1,6 +1,13 @@
-import { Backend_skill, CrossApp_skill, Frontend_skill } from "@/constants";
+import {
+  Backend_skill,
+  CrossApp_skill,
+  Design_skill,
+  Frontend_skill,
+  Skill_data,
+} from "@/constants";
 import React from "react";
 import SkillDataProvider from "../sub/SkillDataProvider";
+import SkillText from "../sub/SkillText";
 
 const Skills = () => {
   return (
@@ -9,6 +16,9 @@ const Skills = () => {
       className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden py-24"
       style={{ transform: "scale(0.8)" }}
     >
+      <SkillText />
+      {/* <div className="h-[320px]"></div> */}
+
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
         {Frontend_skill.map((image, index) => (
           <SkillDataProvider
@@ -21,7 +31,7 @@ const Skills = () => {
         ))}
       </div>
 
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+      <div className="flex flex-row justify-around flex-wrap mt-4 gap-20 items-center">
         {Backend_skill.map((image, index) => (
           <SkillDataProvider
             key={index}
@@ -33,7 +43,7 @@ const Skills = () => {
         ))}
       </div>
 
-      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+      <div className="flex flex-row justify-around flex-wrap mt-4 gap-16 items-center">
         {CrossApp_skill.map((image, index) => (
           <SkillDataProvider
             key={index}
@@ -43,6 +53,32 @@ const Skills = () => {
             index={index}
           />
         ))}
+      </div>
+
+      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
+        {Design_skill.map((image, index) => (
+          <SkillDataProvider
+            key={index}
+            src={image.Image}
+            width={image.width}
+            height={image.height}
+            index={index}
+          />
+        ))}
+      </div>
+
+      <div className="w-full h-full absolute">
+        <div className="w-full h-full z-[-20] opacity-30 absolute flex items-center justify-center bg-cover">
+          <video
+            className="w-full h-auto "
+            preload="false"
+            playsInline
+            loop
+            muted
+            autoPlay
+            src="/cards-video.webm"
+          ></video>
+        </div>
       </div>
     </section>
   );

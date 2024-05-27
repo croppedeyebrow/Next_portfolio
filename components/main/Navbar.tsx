@@ -24,15 +24,15 @@ const Navbar = () => {
         </a>
 
         <div className=" w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
-          <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[16px] px-[20px] py-[10px] rounded-full text-gray-200">
-            <a href="#about me" className="cursor-pointer ">
+          <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[12px] px-[20px] py-[10px] rounded-full text-gray-200">
+            <a href="#about me" className="cursor-pointer hover:underline">
               About Me
             </a>
-            <a href="#skilltree" className="cursor-pointer ">
-              SkillTree
+            <a href="#skilltree" className="cursor-pointer hover:underline ">
+              Skill-Tree
             </a>
-            <a href="#project" className="cursor-pointer ">
-              Project
+            <a href="#project" className="cursor-pointer hover:underline ">
+              Project-List
             </a>
           </div>
         </div>
