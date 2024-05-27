@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect } from "react";
+
 import { motion } from "framer-motion";
 import {
   slideInFromLeft,
@@ -11,10 +12,6 @@ import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
 
 const HeroContent = () => {
-  const handleReload = () => {
-    window.location.reload(); // 페이지를 새로고침
-  };
-
   return (
     <motion.div
       initial="hidden"
@@ -57,7 +54,6 @@ const HeroContent = () => {
         <motion.a
           variants={slideInFromLeft(1)}
           className="py-4 button-primary text-center text-white cursor-pointer rounded-lg max-w-[300px]"
-          onClick={handleReload}
         >
           C.D.C [개발지휘소]에 대해서 <br />더 알아보기
         </motion.a>
