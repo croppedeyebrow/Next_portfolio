@@ -10,6 +10,7 @@ import {
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import Image from "next/image";
+import Link from "next/link";
 
 const HeroContent = () => {
   return (
@@ -28,7 +29,6 @@ const HeroContent = () => {
             Cross-platform Developer Portfolio
           </h1>
         </motion.div>
-
         <motion.div
           variants={slideInFromLeft(0.4)}
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto"
@@ -42,7 +42,6 @@ const HeroContent = () => {
             project outcome
           </span>
         </motion.div>
-
         <motion.p
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
@@ -51,12 +50,18 @@ const HeroContent = () => {
           point of contact between user convenience and business model.
         </motion.p>
 
-        <motion.a
+        <motion.div
           variants={slideInFromLeft(1)}
           className="py-4 button-primary text-center text-white cursor-pointer rounded-lg max-w-[300px]"
         >
-          C.D.C [개발지휘소]에 대해서 <br />더 알아보기
-        </motion.a>
+          <Link
+            href={"https://github.com/croppedeyebrow"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            C.D.C [개발지휘소]에 대해서 <br />더 알아보기
+          </Link>
+        </motion.div>
       </div>
 
       <motion.div

@@ -86,6 +86,10 @@
   animation: hover-move 1.8s ease-in-out infinite;
 }
 
-*/ html {
+.parent-3d {
+  perspective: 1000px;
+}
+
+html {
   scroll-behavior: smooth;
 }

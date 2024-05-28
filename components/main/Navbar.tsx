@@ -25,13 +25,13 @@ const Navbar = () => {
 
         <div className=" w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[12px] px-[20px] py-[10px] rounded-full text-gray-200">
-            <a href="#about me" className="cursor-pointer hover-effect">
+            <a href="#" className="cursor-pointer hover-effect">
               About Me
             </a>
-            <a href="#skilltree" className="cursor-pointer hover-effect">
+            <a href="#skills" className="cursor-pointer hover-effect">
               Skill-Tree
             </a>
-            <a href="#project" className="cursor-pointer hover-effect ">
+            <a href="#projects" className="cursor-pointer hover-effect ">
               Project-List
             </a>
           </div>
