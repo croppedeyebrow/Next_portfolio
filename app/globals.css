@@ -62,6 +62,30 @@
   display: none;
 }
 
-html {
+.hover-effect {
+  transition: color 0.5s ease-in-out;
+  color: rgb(212, 202, 202) []; /* 호버 시 빨간색으로 변경 */
+}
+
+.hover-effect:hover {
+  transform: scale(1.15);
+  color: #bf97ff70; /* 원래 색상으로 복귀 */
+}
+
+@keyframes hover-move {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.hover-move {
+  animation: hover-move 1.8s ease-in-out infinite;
+}
+
+*/ html {
   scroll-behavior: smooth;
 }
