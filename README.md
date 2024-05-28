@@ -40,13 +40,12 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
     <h4>Typescript</h4>
     <h4>Framer Motion</h4>
     <h4>React Three Fiber</h4>
-
+---
 <h3>담은 내용</h3>
  <h4>프로젝트 목록</h4>
  <h4>프로젝트 설명</h4>
  <h4>프로젝트 사용한 기술</h4>
  <h4>프로젝트 사용한 라이브러리</h4>
-
 
 <h5>사용한 라이브러리</h5>
 <h6>
