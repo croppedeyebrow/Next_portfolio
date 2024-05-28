@@ -40,6 +40,8 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
     <h4>Typescript</h4>
     <h4>Framer Motion</h4>
     <h4>React Three Fiber</h4>
+    <h4>React Intersection Observer</h4>
+    <h4>React Three Drei</h4>
 ---
 <h2>담은 내용</h2>
  <h4>프로젝트 목록</h4>

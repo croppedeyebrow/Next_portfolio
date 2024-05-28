@@ -37,7 +37,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="flex flex-row gap-5">
+        <div className="flex flex-row gap-5 cursor-pointer hover:cursor-pointer">
           {Socials.map((social) => (
             <Image
               src={social.src}

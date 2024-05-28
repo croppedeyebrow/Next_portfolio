@@ -27,8 +27,8 @@ const Encryption = () => {
           <Image
             src="/spaceman.png"
             alt="spaceman"
-            width={82}
-            height={82}
+            width={140}
+            height={140}
             className="z-12"
           />
         </div>
