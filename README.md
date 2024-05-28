@@ -20,20 +20,37 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+<h1>프로젝트명 : Next.js + Three.js를 활용한 포트폴리오 홈페이지</h1>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<h2>제작 개요 </h2>
+<p>기존에 제작한 홈페이지의 라우팅속도라든지, 디자인이 맘에 안들어서 다시 제작하게 되었고, <br/>
+    만드는 김에 Next.js와 Three.js를 활용해서 제작하게 되었습니다.</p>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<h2>제작 기간</h2>
+  <h4>2024.05.26~2024.05.28</h4>
 
-## Deploy on Vercel
+<h2>사용한 기술 스택</h2>
+    <h3>Front-End</h3> 
+    <h4>Next.js</h4>
+    <h4>Three.js</h4>
+    <h4>React</h4>
+    <h4>Tailwind CSS</h4>
+    <h4>Typescript</h4>
+    <h4>Framer Motion</h4>
+    <h4>React Three Fiber</h4>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<h3>담은 내용</h3>
+ <h4>프로젝트 목록</h4>
+ <h4>프로젝트 설명</h4>
+ <h4>프로젝트 사용한 기술</h4>
+ <h4>프로젝트 사용한 라이브러리</h4>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-@heroicons/react
-framer-motion three react-intersection-observer @react-three/drei @react-three/fiber
+<h5>사용한 라이브러리</h5>
+<h6>
+
+@heroicons/react <br/>
+framer-motion three react-intersection-observer <br/>@react-three/drei @react-three/fiber
+react-icons</h6>
