@@ -12,7 +12,7 @@ const projects = () => {
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10 cursor-pointer hover:bg-opacity-80 transition-all duration-300">
         <ProjectCard
-          src="/liqueapp.svg"
+          src="/liqueapp.png"
           title="플러터 : 전통주 쇼핑몰 앱"
           description="전통주 쇼핑몰 앱 UI 그리기"
           date="2024.5.13~2024.5.20"
@@ -20,7 +20,7 @@ const projects = () => {
           stack={["Flutter", "Dart"]}
         />
         <ProjectCard
-          src="/chatapp.svg"
+          src="/chatapp.png"
           title="플러터 : 1:1채팅 어플"
           description="채팅 어플 만들기, Flutter + Firebase "
           date="2024.5.21~2024.5.24"
@@ -28,7 +28,7 @@ const projects = () => {
           stack={["Flutter", "Firebase", "Dart"]}
         />
         <ProjectCard
-          src="/webnotion.svg"
+          src="/webnotion.png"
           title="웹개발 노션 정리"
           description="웹개발 내용 노션 정리"
           date="2023.8.14~2024.2.21"
