@@ -25,7 +25,7 @@ const Encryption = () => {
       <div className="flex flex-col items-center justify-center translate-y-[-80px] absolute z-[0] w-auto h-auto ">
         <div className="flex flex-col items-center group cursor-pointer w-auto h-auto hover-move">
           <Image
-            src="/spaceman.png"
+            src="/spaceman.svg"
             alt="spaceman"
             width={240}
             height={240}

@@ -32,25 +32,25 @@ export const Socials = [
 export const Frontend_skill = [
   {
     skill_name: "Html 5",
-    Image: "/html.png",
+    Image: "/html.svg",
     width: 80,
     height: 80,
   },
   {
     skill_name: "Css",
-    Image: "/css.png",
+    Image: "/css.svg",
     width: 80,
     height: 80,
   },
   {
     skill_name: "Java Script",
-    Image: "/js.png",
+    Image: "/js.svg",
     width: 65,
     height: 65,
   },
   {
     skill_name: "Tailwind Css",
-    Image: "/tailwind.png",
+    Image: "/tailwind.svg",
     width: 80,
     height: 80,
   },
@@ -62,7 +62,7 @@ export const Frontend_skill = [
   // },
   {
     skill_name: "React",
-    Image: "/react.png",
+    Image: "/react.svg",
     width: 80,
     height: 80,
   },
@@ -80,19 +80,19 @@ export const Frontend_skill = [
   // },
   {
     skill_name: "Type Script",
-    Image: "/ts.png",
+    Image: "/ts.svg",
     width: 80,
     height: 80,
   },
   {
     skill_name: "Next js 13",
-    Image: "/next.png",
+    Image: "/next.svg",
     width: 80,
     height: 80,
   },
   {
     skill_name: "Framer Motion",
-    Image: "/framer.png",
+    Image: "/framer.svg",
     width: 80,
     height: 80,
   },
@@ -101,13 +101,13 @@ export const Frontend_skill = [
 export const Backend_skill = [
   {
     skill_name: "Node js",
-    Image: "/node-js.png",
+    Image: "/node-js.svg",
     width: 80,
     height: 80,
   },
   {
     skill_name: "Express js",
-    Image: "/express.png",
+    Image: "/express.svg",
     width: 80,
     height: 80,
   },
@@ -119,7 +119,7 @@ export const Backend_skill = [
   // },
   {
     skill_name: "Fire base",
-    Image: "/Firebase.png",
+    Image: "/Firebase.svg",
     width: 55,
     height: 55,
   },
@@ -131,25 +131,25 @@ export const Backend_skill = [
   // },
   {
     skill_name: "My SQL",
-    Image: "/mysql.png",
+    Image: "/mysql.svg",
     width: 70,
     height: 70,
   },
   {
     skill_name: "Python",
-    Image: "/python.png",
+    Image: "/python.svg",
     width: 70,
     height: 70,
   },
   {
     skill_name: "Dajngo",
-    Image: "/django.png",
+    Image: "/django.svg",
     width: 70,
     height: 70,
   },
   {
     skill_name: "Flask",
-    Image: "/Flask.png",
+    Image: "/Flask.svg",
     width: 70,
 
     height: 70,
@@ -171,13 +171,13 @@ export const Backend_skill = [
 export const CrossApp_skill = [
   {
     skill_name: "React Native",
-    Image: "/ReactNative .png",
+    Image: "/ReactNative .svg",
     width: 70,
     height: 70,
   },
   {
     skill_name: "Flutter",
-    Image: "/flutter.png",
+    Image: "/flutter.svg",
     width: 70,
     height: 70,
   },
@@ -198,13 +198,13 @@ export const CrossApp_skill = [
 export const Design_skill = [
   {
     skill_name: "Spline",
-    Image: "/spline.png",
+    Image: "/spline.svg",
     width: 60,
     height: 60,
   },
   {
     skill_name: "Figma",
-    Image: "/figma.png",
+    Image: "/figma.svg",
     width: 50,
     height: 50,
   },
