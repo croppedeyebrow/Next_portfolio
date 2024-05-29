@@ -119,7 +119,7 @@ export const Backend_skill = [
   // },
   {
     skill_name: "Fire base",
-    Image: "/firebase.png",
+    Image: "/Firebase.png",
     width: 55,
     height: 55,
   },
@@ -144,12 +144,12 @@ export const Backend_skill = [
   {
     skill_name: "Dajngo",
     Image: "/django.png",
-    width: 70,
-    height: 70,
+    width: 90,
+    height: 90,
   },
   {
     skill_name: "Flask",
-    Image: "/flask.png",
+    Image: "/Flask.png",
     width: 70,
 
     height: 70,
