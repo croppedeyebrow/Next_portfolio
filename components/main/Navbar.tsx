@@ -37,17 +37,23 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="flex flex-row gap-5 cursor-pointer hover:cursor-pointer">
-          {Socials.map((social) => (
-            <Image
-              src={social.src}
-              alt={social.name}
-              key={social.name}
-              width={26}
-              height={26}
-            />
-          ))}
-        </div>
+        <a
+          href="https://litt.ly/coding_direction_center"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="flex flex-row gap-5 cursor-pointer hover:cursor-pointer border border-[#7042f861] bg-[#0300145e] px-[20px] py-[10px] rounded-full">
+            {Socials.map((social) => (
+              <Image
+                src={social.src}
+                alt={social.name}
+                key={social.name}
+                width={26}
+                height={26}
+              />
+            ))}
+          </div>
+        </a>
       </div>
     </div>
   );

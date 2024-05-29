@@ -12,57 +12,113 @@ import { FaBlog, FaGoogle } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[16px]">
+    <div className="w-full h-full bg-transparent text-gray-200 shadow-lg p-[16px] z-[20]">
       <div className="w-full flex flex-col items-center justify-center m-auto">
         <div className="w-full h-full flex flex-row items-center justify-around flex-wrap">
-          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
+          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start z-[21] ">
             <div className="font-bold text-[16px]">Community</div>
 
-            <p className="flex flex-row items-center my-[16px] cursor-pointer">
+            <p className="flex flex-row items-center my-[16px] cursor-pointer hover:cursor-pointer hover:scale-110 ">
               <RxNotionLogo />
-              <span className="text-[14px] ml-[8px]">Notion</span>
+              <a
+                href="https://www.notion.so/neulsom-insight/29b7a54ac56c46f7bf8a988e86c8ff3c"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[14px] ml-[8px] hover-effect"
+              >
+                Notion
+              </a>
             </p>
 
-            <p className="flex flex-row items-center my-[16px] cursor-pointer">
+            <p className="flex flex-row items-center my-[16px] cursor-pointer hover:scale-110 ">
               <RxGithubLogo />
-              <span className="text-[14px] ml-[8px]">깃허브</span>
+              <a
+                href="https://github.com/croppedeyebrow"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[14px] ml-[8px] hover-effect"
+              >
+                깃허브
+              </a>
             </p>
 
-            <p className="flex flex-row items-center my-[16px] cursor-pointer">
+            <p className="flex flex-row items-center my-[16px] cursor-pointer hover:scale-110 ">
               <RxDiscordLogo />
-              <span className="text-[14px] ml-[8px]">디스코드</span>
+              <a
+                href="https://discord.gg/JbByKDk7JW"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[14px] ml-[8px] hover-effect"
+              >
+                디스코드
+              </a>
             </p>
           </div>
 
-          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
+          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start z-[21]">
             <div className="font-bold text-[16px]">Social Media</div>
 
-            <p className="flex flex-row items-center my-[16px] cursor-pointer">
+            <p className="flex flex-row items-center my-[16px] cursor-pointer hover:scale-110  ">
               <FaBlog />
-              <span className="text-[14px] ml-[8px]">티스토리 블로그</span>
+              <a
+                href="https://cut-eyebrow.tistory.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[14px] ml-[8px] hover-effect"
+              >
+                티스토리 블로그
+              </a>
             </p>
 
-            <p className="flex flex-row items-center my-[16px] cursor-pointer">
+            <p className="flex flex-row items-center my-[16px] cursor-pointer hover:scale-110  ">
               <RxInstagramLogo />
-              <span className="text-[14px] ml-[8px]">인스타그램</span>
+              <a
+                href="https://www.instagram.com/dev_cordinate_spa/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[14px] ml-[8px]  hover-effect "
+              >
+                인스타그램
+              </a>
             </p>
 
-            <p className="flex flex-row items-center my-[16px] cursor-pointer">
+            <p className="flex flex-row items-center my-[16px] cursor-pointer hover:scale-110 ">
               <RxLinkedinLogo />
-              <span className="text-[14px] ml-[8px]">링크드인</span>
+              <a
+                href="https://www.linkedin.com/in/lid-eye-90719b284/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[14px] ml-[8px] hover-effect"
+              >
+                링크드인
+              </a>
             </p>
           </div>
 
-          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
+          <div className="min-w-[200px] h-auto flex flex-col items-center justify-start z-[21]">
             <div className="font-bold text-[16px]">About me</div>
 
-            <p className="flex flex-row items-center my-[16px] cursor-pointer">
+            <p className="flex flex-row items-center my-[16px] ">
               <FaGoogle />
-              <span className="text-[14px] ml-[8px]">Contact Me</span>
+              <a
+                href="https://litt.ly/coding_direction_center"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[14px] ml-[8px]"
+              >
+                Contact Me
+              </a>
             </p>
 
-            <p className="flex flex-row items-center my-[16px] cursor-pointer">
-              <span className="text-[14px] ml-[8px]">lee940706@gmail.com</span>
+            <p className="flex flex-row items-center my-[16px] cursor-pointer hover-effect  ">
+              <a
+                href="https://www.google.com/intl/ko/gmail/about/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[14px] ml-[8px]"
+              >
+                lee940706@gmail.com
+              </a>
             </p>
           </div>
         </div>
