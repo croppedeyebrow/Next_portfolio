@@ -8,8 +8,8 @@ import Footer from "@/components/main/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Coding Direction Center Portfolio",
-  description: "포트폴리오 다시 만들기",
+  title: "포지[Insight_Forge]",
+  description: "PM/데이터분석가 포트폴리오",
 };
 
 export default function RootLayout({
